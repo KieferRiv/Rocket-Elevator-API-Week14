@@ -17,7 +17,8 @@ namespace Rocket_Elevator_RESTApi.Models
             {
                 base.OnModelCreating(modelBuilder);
     /////////This is where relations between tables in DB are specified
-               
+                modelBuilder.Entity<Intervention>()
+                .HasKey(x => x.id);
                 modelBuilder.Entity<Building>()
                 .HasKey(b => b.id);
 
@@ -67,6 +68,7 @@ namespace Rocket_Elevator_RESTApi.Models
         public DbSet<Building> buildings  { get; set; }
         public DbSet<Lead> leads { get; set; }
         public DbSet<Quote> quotes { get; set; }
+        public DbSet<Intervention> interventions { get; set; }
 
     }
 }
