@@ -9240,11 +9240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kifkr\\wee9-fridayAPI\\Rocket_Elevators_REST_API\\Rocket_Elevator_RESTApi.csproj",
+      "projectUniqueName": "C:\\Users\\kifkr\\week11-api\\Rocket-Elevator-Foundation-RestAPI\\Rocket_Elevator_RESTApi.csproj",
       "projectName": "Rocket_Elevator_RESTApi",
-      "projectPath": "C:\\Users\\kifkr\\wee9-fridayAPI\\Rocket_Elevators_REST_API\\Rocket_Elevator_RESTApi.csproj",
+      "projectPath": "C:\\Users\\kifkr\\week11-api\\Rocket-Elevator-Foundation-RestAPI\\Rocket_Elevator_RESTApi.csproj",
       "packagesPath": "C:\\Users\\kifkr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kifkr\\wee9-fridayAPI\\Rocket_Elevators_REST_API\\obj\\",
+      "outputPath": "C:\\Users\\kifkr\\week11-api\\Rocket-Elevator-Foundation-RestAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kifkr\\AppData\\Roaming\\NuGet\\NuGet.Config",

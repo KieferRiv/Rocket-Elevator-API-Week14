@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fiw6FM1JQrsN9JyMbGpIVX56wuykbl9lEbTcVtoRhE/FPyERj/tIy448fralEcY10nxqIkGBpK7NEUG1Qwa+ng==",
+  "dgSpecHash": "aUbVL8Lt4TCgcV8ILi/2xtsaDPwq0l3dyzAqvVo8L6eQ3yF3BP7A9QAz9EUmU0OZAPeV0lu31PShvMhMHTWR+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kifkr\\wee9-fridayAPI\\Rocket_Elevators_REST_API\\Rocket_Elevator_RESTApi.csproj",
+  "projectFilePath": "C:\\Users\\kifkr\\week11-api\\Rocket-Elevator-Foundation-RestAPI\\Rocket_Elevator_RESTApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kifkr\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\kifkr\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
