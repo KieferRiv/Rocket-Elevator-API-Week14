@@ -29,7 +29,19 @@ namespace Rocket_Elevator_RESTApi.Controllers
             .ToListAsync();
 
                 
-        }          
+        } 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Products>> GetCustomerInfos(int id) 
+        {
+            var products = await _context.Products.FindAsync(id);
+
+            if(products == null) 
+            {
+                return null;
+            }
+
+            return products;
+        }       
     }
 
 }

@@ -20,6 +20,12 @@ namespace Rocket_Elevator_RESTApi.Models
                 modelBuilder.Entity<Customer>()
                 .HasKey(x => x.id);
 
+                modelBuilder.Entity<CustomerInfos>()
+                .HasNoKey();
+
+                modelBuilder.Entity<Products>()
+                .HasNoKey();
+
 
                 modelBuilder.Entity<Intervention>()
                 .HasKey(x => x.id);
@@ -74,6 +80,9 @@ namespace Rocket_Elevator_RESTApi.Models
         public DbSet<Quote> quotes { get; set; }
         public DbSet<Intervention> interventions { get; set; }
         public DbSet<Customer> customers { get; set; }
+        public DbSet<CustomerInfos> CustomerInfos {get; set;}
+
+         public DbSet<Products> Products {get; set;}
 
     }
 }
