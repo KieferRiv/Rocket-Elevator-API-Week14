@@ -18,7 +18,7 @@ namespace Rocket_Elevator_RESTApi.Models
                 base.OnModelCreating(modelBuilder);
     /////////This is where relations between tables in DB are specified
                 modelBuilder.Entity<Customer>()
-                .HasKey(x => x.id);
+                .HasKey(x => x.cpy_contact_email);
 
                 modelBuilder.Entity<CustomerInfos>()
                 .HasNoKey();

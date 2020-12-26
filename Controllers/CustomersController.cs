@@ -22,26 +22,22 @@ namespace Rocket_Elevator_RESTApi.Controllers
             _context = context;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomersEmail()
+        
+        
+    [HttpGet("{cpy_contact_email}")]
+        public async Task<ActionResult<Customer>> GetCustomersEmail(string cpy_contact_email)
         {  
-            return await _context.customers
-            .ToListAsync();
+            
+            var customer = await _context.customers.FindAsync(cpy_contact_email);
 
-                
-        } 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Products>> GetCustomerInfos(int id) 
-        {
-            var products = await _context.Products.FindAsync(id);
-
-            if(products == null) 
+            if (customer == null)
             {
-                return null;
+                return NotFound();
             }
 
-            return products;
-        }       
+            return customer;
+                
+        }    
     }
 
 }

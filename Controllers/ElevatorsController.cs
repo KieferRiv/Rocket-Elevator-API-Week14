@@ -43,7 +43,7 @@ namespace Rocket_Elevator_RESTApi.Controllers
         }
 
         
-        [HttpPatch("{id}")]
+        [HttpPost("{id}")]
         public async Task<ActionResult<Elevator>> Patch(int id, [FromBody]JsonPatchDocument<Elevator> info)
         {
             
